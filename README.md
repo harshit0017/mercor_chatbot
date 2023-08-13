@@ -1,5 +1,5 @@
 # ChatBot for Online Shopping Platforms
-
+#video demo- https://youtu.be/pCiCIghAZ1Q
 ![ChatBot Demo](demo.gif)
 
 This repository contains a highly efficient and interactive chatbot designed specifically for online shopping platforms. The chatbot utilizes the power of the OpenAI model and is built using Python as the programming language, with TextBase as the technology base.
