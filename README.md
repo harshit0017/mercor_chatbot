@@ -1,43 +1,52 @@
-# Textbase
+# ChatBot for Online Shopping Platforms
 
-✨ Textbase is a framework for building chatbots using NLP and ML. ✨
+![ChatBot Demo](demo.gif)
 
-Just implement the `on_message` function in `main.py` and Textbase will take care of the rest :)
+This repository contains a highly efficient and interactive chatbot designed specifically for online shopping platforms. The chatbot utilizes the power of the OpenAI model and is built using Python as the programming language, with TextBase as the technology base.
 
-Since it is just Python you can use whatever models, libraries, vector databases and APIs you want.
+## Features
 
-_Coming soon:_
+- **Advanced Understanding**: Our chatbot is equipped with an OpenAI model that enables it to comprehend user needs and queries effectively. It can understand the context of the conversation and analyze product descriptions present in the database.
 
-- [ ] PyPI package
-- [ ] SMS integration
-- [ ] Easy web deployment via `textbase deploy`
-- [ ] Native integration of other models (Claude, Llama, ...)
+- **Contextual Recommendations**: The chatbot provides personalized product recommendations based on the user's input and preferences. It leverages its understanding of the conversation context to suggest relevant items from the database.
 
-## Installation
+- **Realistic Interaction**: Interacting with our chatbot is akin to conversing with a human salesperson. The chatbot engages users in a natural and friendly manner, enhancing the overall shopping experience.
 
-Clone the repository and install the dependencies using [Poetry](https://python-poetry.org/) (you might have to [install Poetry](https://python-poetry.org/docs/#installation) first).
+- **Chat History**: Our chatbot retains the conversation history, allowing users to revisit previous interactions. This feature facilitates continuity in the conversation, enabling users to pick up where they left off.
 
-```bash
-git clone https://github.com/cofactoryai/textbase
-cd textbase
-poetry shell
-poetry install
-```
+## Getting Started
 
-## Start development server
+To experience the power of our chatbot, follow these steps:
 
-> If you're using the default template, **remember to set the OpenAI API key** in `main.py`.
+1. **Clone the Repository**: Begin by cloning this repository to your local machine using the following command:
 
-Run the following command:
+   ```
+   git clone https://github.com/your-username/your-repo.git
+   ```
 
-```bash
-poetry run python textbase/textbase_cli.py test main.py
-```
+2. **Install Dependencies**: Navigate to the repository's directory and install the necessary dependencies:
 
-Now go to [http://localhost:4000](http://localhost:4000) and start chatting with your bot! The bot will automatically reload when you change the code.
+   ```
+   cd your-repo
+   pip install -r requirements.txt
+   ```
 
-_Simpler version using PyPI package and CLI coming soon!_
+3. **Run the Chatbot**: Execute the chatbot script to initiate the interactive session:
 
-## Contributions
+   ```
+   python chatbot.py
+   ```
 
-Contributions are welcome! Please open an issue or a pull request.
+4. **Start Shopping**: Engage in a conversation with the chatbot. Feel free to explore its capabilities and ask for product recommendations. Enjoy the realistic and personalized shopping experience!
+
+## Contributing
+
+We welcome contributions from the community to enhance and expand the capabilities of our chatbot. If you have ideas for improvements, new features, or bug fixes, please submit a pull request. For major changes, please open an issue to discuss your ideas.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE), which allows you to use, modify, and distribute the code as per the terms specified.
+
+---
+
+Experience a new era of online shopping with our advanced chatbot. Say goodbye to random product searches and hello to personalized recommendations tailored to your preferences. Happy shopping! 🛍️
