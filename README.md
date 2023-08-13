@@ -43,10 +43,6 @@ To experience the power of our chatbot, follow these steps:
 
 We welcome contributions from the community to enhance and expand the capabilities of our chatbot. If you have ideas for improvements, new features, or bug fixes, please submit a pull request. For major changes, please open an issue to discuss your ideas.
 
-## License
 
-This project is licensed under the [MIT License](LICENSE), which allows you to use, modify, and distribute the code as per the terms specified.
-
----
 
 Experience a new era of online shopping with our advanced chatbot. Say goodbye to random product searches and hello to personalized recommendations tailored to your preferences. Happy shopping! 🛍️
